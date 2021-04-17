@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find Delta_2A_ros)/launch/delta_lidar.launch" />
+    <include file="$(find hector_slam)/hector_slam_launch/launch/tutorial.launch" />
+</launch>
