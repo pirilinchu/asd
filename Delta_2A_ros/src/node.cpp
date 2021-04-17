@@ -167,6 +167,7 @@ int main(int argc, char * argv[])
 
 				start_scan_time = end_scan_time;
 
+                usleep(500000);
                 break;
             }
             case LIDAR_GRAB_ERRO:
